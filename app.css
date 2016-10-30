@@ -1,0 +1,53 @@
+body{
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+
+}
+
+#playArea {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  border-color: red;
+  border-width: 10px;
+  border-style: solid;
+}
+
+#point{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('./images/point.jpg');
+  background-size: cover;
+  top: 100px;
+  left : 100px;
+}
+#snake{
+  width: 10px;
+  height: 20px;
+  position: absolute;
+  background-image: url('./images/snake.png');
+  background-size: cover;
+  top:100px;
+  left : 100px;
+}
+#score{
+  width: 160px;
+  height: 40px;
+  position: absolute;;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  top:0em;
+  left:28em;
+  text-align: center;
+  font-size: 2em;
+  .scoren{
+  position: absolute;
+  text-align: center;
+  top: -1em
+  }
+}
