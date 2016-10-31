@@ -110,7 +110,7 @@ function myMove() {
   }}
   function gameOver(){
     if((pos==0 || pos==380 ||pos1==0 || pos1==780) && count==0){
-    alert(" GAME OVER !! Better Luck Next Time");
+    
     window.open("../game_over/index.html" ,"_self");
     count++;
     clearInterval(id2);
