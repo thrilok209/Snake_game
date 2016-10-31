@@ -13,6 +13,7 @@ body{
   border-color: red;
   border-width: 10px;
   border-style: solid;
+  left:2em;
 }
 
 #point{
@@ -33,6 +34,13 @@ body{
   top:100px;
   left : 100px;
 }
+h3{
+  position: relative;
+  top:0em;
+  left:40.5em;
+  color:black;
+
+}
 #score{
   width: 160px;
   height: 40px;
@@ -41,8 +49,8 @@ body{
   border-width: 2px;
   border-style: solid;
   background-color: white;
-  top:0em;
-  left:28em;
+  top:2em;
+  left:33em;
   text-align: center;
   font-size: 2em;
   .scoren{

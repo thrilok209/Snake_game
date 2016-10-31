@@ -1,0 +1,24 @@
+
+body{
+    background-image: url('/second_page/images/background.jpg');
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+
+}
+
+ h1{
+
+  position: relative;
+  top:2em;
+  left:2em;
+  color: yellow;
+  font-size: 5em;
+}
+a{
+  position: fixed;
+  top: 22em;
+  left: 38em;
+  background-color: yellow;
+  color: green;
+}
