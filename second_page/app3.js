@@ -121,7 +121,7 @@ function myMove() {
   }}
   function youWon() {
 
-    if(sc==2){
+    if(sc==8){
 
       window.open("../you_Won/index(won).html" ,"_self");
       clearInterval(id2);
